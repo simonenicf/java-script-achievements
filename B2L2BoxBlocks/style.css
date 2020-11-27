@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(41, 151, 224);
+}
+
+#blocks {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dedede;
+    padding: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ededed;
+}
+/** Dit mag je laten staan **/
+
+#box1 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFCC00;
+    padding: 10px;
+    margin: 5px;
+    color: yellow;
+    background-color: red;
+}
+
+#box2 {
+    border-style: dotted;
+    border-color: #000000;/** Vul hier de juiste stijlen in zoals in de achievement staat **/
+    border-width: 10px;
+}
+
+#box3 {
+    /** Vul hier de juiste stijlen in zoals in de achievement staat **/
+}
