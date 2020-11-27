@@ -28,10 +28,19 @@ body {
 
 #box2 {
     border-style: dotted;
-    border-color: #000000;/** Vul hier de juiste stijlen in zoals in de achievement staat **/
+    border-color: #000000;
     border-width: 10px;
+    padding: 2px 0px;
+    margin: 0px;
+    color: white;
+    background-color: #59C21D;
 }
 
 #box3 {
-    /** Vul hier de juiste stijlen in zoals in de achievement staat **/
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #D4C9FF;
+    padding: 0px 150px;
+    margin: 33px 0px 22px;
+    color: #E1FF38;
 }
