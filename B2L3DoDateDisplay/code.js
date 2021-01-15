@@ -3,10 +3,11 @@ let jaren = document.getElementById("jaar");
 let maanden = document.getElementById("maand");
 
 let dezeDag = new Date;
-dezeDag = dezeDag.getDay();
+dezeDag = dezeDag.getDate();
 
 let dezeMaand = new Date;
 dezeMaand = dezeMaand.getMonth();
+dezeMaand =+ 1;
 
 let dezeJaar = new Date;
 dezeJaar = dezeJaar.getFullYear();
